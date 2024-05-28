@@ -1,0 +1,151 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    
+}
+
+header.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+header.hero img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+header.hero .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header.hero h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+section {
+    padding: 20px 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+}
+
+.feature h3 {
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+blockquote {
+    margin: 20px 0;
+    font-style: italic;
+}
+
+cite {
+    display: block;
+    text-align: right;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+footer .social-media img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
